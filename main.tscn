@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://btmugdosh4r23"]
+
+[ext_resource type="PackedScene" uid="uid://d3as3336dn2hr" path="res://player.tscn" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://cuus7283sdaxr" path="res://platform.tscn" id="2_0xm2m"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_ig7tw"]
+normal = Vector2(-0.0029984873, -0.9999955)
+distance = -605.9423
+
+[node name="Main" type="Node2D" unique_id=1380930927]
+position = Vector2(-2, -1)
+
+[node name="ground" type="StaticBody2D" parent="." unique_id=1785590030]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground" unique_id=181593220]
+position = Vector2(17, 42)
+shape = SubResource("WorldBoundaryShape2D_ig7tw")
+
+[node name="platform" parent="ground" unique_id=113893051 instance=ExtResource("2_0xm2m")]
+position = Vector2(682, 506)
+
+[node name="platform2" parent="ground" unique_id=976098607 instance=ExtResource("2_0xm2m")]
+position = Vector2(437, 379)
+
+[node name="platform3" parent="ground" unique_id=2007799218 instance=ExtResource("2_0xm2m")]
+position = Vector2(228, 281)
+
+[node name="platform4" parent="ground" unique_id=842989104 instance=ExtResource("2_0xm2m")]
+position = Vector2(14, 227)
+
+[node name="Player" parent="." unique_id=203137343 instance=ExtResource("1_ig7tw")]
+position = Vector2(392, 157)

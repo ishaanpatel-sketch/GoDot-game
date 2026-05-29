@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cuus7283sdaxr"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5ajho"]
+size = Vector2(102.5, 13)
+
+[node name="platform" type="StaticBody2D" unique_id=113893051]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1287613675]
+offset_left = 258.0
+offset_top = 21.0
+offset_right = 361.0
+offset_bottom = 34.0
+color = Color(0.8370766, 0.55507296, 0.8685904, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=897845542]
+position = Vector2(309.75, 27.5)
+shape = SubResource("RectangleShape2D_5ajho")
+one_way_collision = true
