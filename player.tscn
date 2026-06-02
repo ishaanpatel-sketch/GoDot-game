@@ -4,17 +4,17 @@
 [ext_resource type="Script" uid="uid://dqfxdidkjjkn5" path="res://player.gd" id="1_onrkg"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_onrkg"]
-radius = 85.0
-height = 245.49994
+radius = 46.0
+height = 124.0
 
 [node name="Player" type="CharacterBody2D" unique_id=203137343]
 script = ExtResource("1_onrkg")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1239152810]
-position = Vector2(112, 136.625)
-scale = Vector2(3.90625, 4.5507813)
+position = Vector2(54, 66.5)
+scale = Vector2(2.09375, 2.3593752)
 texture = ExtResource("1_4flbx")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=596624715]
-position = Vector2(114, 153.25003)
+position = Vector2(54, 75)
 shape = SubResource("CapsuleShape2D_onrkg")

@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://dbe7egxcj0w42"]
+
+[ext_resource type="Script" uid="uid://3ohl38rs575q" path="res://goal.gd" id="1_0qle8"]
+[ext_resource type="Texture2D" uid="uid://db7e8ypq1hj35" path="res://pixilart-drawing.png" id="1_6k3qi"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_6k3qi"]
+radius = 19.0
+
+[node name="goal" type="Area2D" unique_id=1031972429]
+script = ExtResource("1_0qle8")
+
+[node name="ball" type="Sprite2D" parent="." unique_id=245060361]
+position = Vector2(353, 198)
+scale = Vector2(0.59, 0.55)
+texture = ExtResource("1_6k3qi")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=971605641]
+position = Vector2(355, 196)
+shape = SubResource("CircleShape2D_6k3qi")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
