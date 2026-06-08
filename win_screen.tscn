@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://b0lavs4kt68lg"]
+
+[node name="Win screen" type="Control" unique_id=707046781]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="." unique_id=1886057100]
+layout_mode = 0
+offset_left = 359.0
+offset_top = 129.0
+offset_right = 757.0
+offset_bottom = 289.0
+theme_override_font_sizes/font_size = 85
+text = "YOU WIN!"
+
+[node name="Button" type="Button" parent="." unique_id=1912886410]
+layout_mode = 0
+offset_left = 435.0
+offset_top = 281.0
+offset_right = 691.0
+offset_bottom = 358.0
+theme_override_font_sizes/font_size = 50
+text = "Play Again"
