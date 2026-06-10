@@ -6,6 +6,12 @@ anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
+[node name="ColorRect" type="ColorRect" parent="." unique_id=308325209]
+layout_mode = 0
+offset_right = 1217.0
+offset_bottom = 688.0
+color = Color(0, 1, 1, 1)
+
 [node name="Label" type="Label" parent="." unique_id=1886057100]
 layout_mode = 0
 offset_left = 359.0

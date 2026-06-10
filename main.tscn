@@ -39,24 +39,30 @@ position = Vector2(171, 288)
 position = Vector2(591, 195)
 
 [node name="platform5" parent="ground" unique_id=1691394787 instance=ExtResource("2_0xm2m")]
-position = Vector2(-55, 92)
+position = Vector2(-48, 92)
 
 [node name="platform6" parent="ground" unique_id=889045875 instance=ExtResource("2_0xm2m")]
 position = Vector2(303, 114)
 
 [node name="platform7" parent="ground" unique_id=1455863590 instance=ExtResource("2_0xm2m")]
-position = Vector2(805, 276)
+position = Vector2(828, 253)
 
 [node name="platform8" parent="ground" unique_id=1731824982 instance=ExtResource("2_0xm2m")]
-position = Vector2(-187, 211)
+position = Vector2(-228, 209)
 
 [node name="Player" parent="." unique_id=203137343 instance=ExtResource("1_ig7tw")]
-position = Vector2(392, 157)
+position = Vector2(685, 487)
 
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=1676015658]
 
 [node name="goal" parent="." unique_id=1035411964 instance=ExtResource("3_1bvp3")]
-position = Vector2(746, 81)
+position = Vector2(784, 57)
 
 [node name="Enemy" parent="." unique_id=1290801849 instance=ExtResource("2_lquwl")]
-position = Vector2(289, -76)
+position = Vector2(767, 46)
+
+[node name="Enemy2" parent="." unique_id=1842215829 instance=ExtResource("2_lquwl")]
+position = Vector2(192, -67)
+
+[node name="Enemy3" parent="." unique_id=381367572 instance=ExtResource("2_lquwl")]
+position = Vector2(315, 138)
